@@ -1,0 +1,46 @@
+.hero{
+    height: 100vh;
+    width: 100vw;
+    background-image:
+
+    url('https://i.pinimg.com/1200x/67/8c/ab/678cabb80896cde1ce765b84e59f9ecb.jpg');
+
+    background-size: cover;
+    background-position: center;
+}
+.yes{
+    color: white;
+    margin-left:55vw;
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 30vh;
+}
+.hero_text{
+    color: rgb(216, 3, 3);
+    font-size: 120px;
+    text-align: center;
+    margin-left: 60vw;
+}
+.yes{
+    animation: slideUp 3s ease forwards;
+      font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+.hero_text{
+    animation: slideUp 3s ease forwards;
+    animation-delay: 0.3s;
+}   
+
+/* Animation */
+@keyframes slideUp{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

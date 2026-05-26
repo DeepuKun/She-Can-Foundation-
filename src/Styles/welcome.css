@@ -1,0 +1,72 @@
+.welcome{
+    height:90vh;
+    width:100vw;
+    background-image: url('https://i.pinimg.com/originals/3c/12/7a/3c127aeea4e76620701d2129b76dd2e7.gif');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.welcome_she_can{
+    font-size:70px;
+    color: rgb(216, 3, 3);
+}
+.welcome_to{
+    font-size: 30px;
+    
+}
+
+.welcome_NGO{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.motto1{
+    font-size:50px;
+}
+
+.motto2{
+    font-size: 50px;
+    color: rgb(216, 3, 3);
+}
+.motto3{
+    font-size: 20px;
+    font-family:"Dancing Script", cursive;
+}
+.welcome_button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(216, 3, 3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s ease, padding 0.3s ease;
+}
+.welcome_button:hover{
+    background-color: rgb(134, 0, 0);
+    padding: 20px 30px;
+}
+
+.autoShow{
+    animation: smoothReveal both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 40%;
+}
+
+@keyframes smoothReveal{
+    from{
+        opacity: 0;
+        transform: translateY(60px);
+        filter: blur(10px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
