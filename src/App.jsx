@@ -6,18 +6,20 @@ import AboutUS from './Components/AboutUS'
 import JoinUs from './Components/JoinUs'
 import Quote from './Components/Quote'
 import ContactUs from './Components/ContactUs'
+import { Route, Routes } from 'react-router-dom'
+import About from './Components/About'
+import Donate from './Components/Donate'
+import Donate_page from './Components/Donate_page'
 
 const App = () => {
   return (
-    <div>
-      <Header/>
-      <Hero/>
-      <Welcome/>
-      <AboutUS/>
-      <JoinUs/>
-      <Quote/>
-      <ContactUs/>
-    </div>
+    
+    <Routes>
+      <Route path='/' element={<><Header/><Hero/><Welcome/><AboutUS/><JoinUs/><Quote/><ContactUs/></>} />
+      <Route path='/about' element={<About/>} />
+      <Route path='/donate' element={<Donate/>} />
+      <Route path='/donate_page' element={<Donate_page/>} />
+    </Routes>
   )
 }
 

@@ -10,40 +10,19 @@
 }
 .yes{
     color: white;
-    margin-left:55vw;
+    margin-left:50vw;
     font-size: 100px;
     font-weight: bold;
     padding-top: 30vh;
+    
 }
 .hero_text{
     color: rgb(216, 3, 3);
     font-size: 120px;
     text-align: center;
-    margin-left: 60vw;
-}
-/* .yes{
-    animation: slideUp 3s ease forwards;
-      font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
+    margin-left: 55vw;
 }
 
-.hero_text{
-    animation: slideUp 3s ease forwards;
-    animation-delay: 0.3s;
-}   
-
-
-@keyframes slideUp{
-    from{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
-} */
 .yes{
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;

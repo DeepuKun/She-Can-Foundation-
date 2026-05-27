@@ -1,0 +1,40 @@
+.donate{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 100px;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        #EE9B52 20%,
+        #F0C38A 45%,
+        #F5E6D3 100%
+    );
+    background-attachment: fixed;
+}
+.donate_right img{
+    margin-top: 40px;
+    height: 600px;
+    width: 500px;
+    border-radius: 20px;
+        box-shadow:
+    0 8px 32px rgba(0,0,0,0.5),
+    inset 0 1px 1px rgba(255,255,255,0.5);
+}
+
+.donate_left{
+    width: 500px;
+}
+.donate_left h1{
+    font-size: 50px;
+}
+.donate_left h1 span{
+    color: rgb(216, 3, 3);
+}
+.donate_left p{
+    font-size: 17px;
+      font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}

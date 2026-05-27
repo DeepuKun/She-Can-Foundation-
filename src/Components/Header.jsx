@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import '../Styles/header.css'
 const Header = () => {
   return (
@@ -9,9 +10,10 @@ const Header = () => {
       </div>
         
         <div className='header_right'>
-        <p>Home</p>
-        <p>About Us</p>
-        <p>Contact Us</p>
+        <NavLink to='/'> <p className='nav-link'>Home</p> </NavLink>
+        <NavLink to='/about'> <p className='nav-link'>About Us</p> </NavLink>
+        <NavLink to='/donate'> <p className='nav-link'>Our Certificate</p> </NavLink>
+        <NavLink to='/donate_page'> <p className='nav-link'>Donate</p> </NavLink>
         </div>
         
     </div>

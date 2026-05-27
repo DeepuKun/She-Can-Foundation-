@@ -1,0 +1,77 @@
+.about{
+    height:80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    width: 60vw;
+    justify-self: center;
+    padding-top: 15vh;
+}
+.about-red{
+    font-size: 90px;
+    color: rgb(216, 3, 3);
+}
+.about-black{
+    font-size: 70px;
+}
+.about-text{
+    font-size: 18px;
+      font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.about_bg{
+    height:100%;
+    width:100vw;
+    background: linear-gradient(
+        to bottom,
+        #EE9B52 20%,
+        #F0C38A 45%,
+        #F5E6D3 100%
+    );
+    background-attachment: fixed;
+}
+.about_images{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.about_images img{
+    height: 400px;
+    width: 290px;
+    border-radius: 20px;
+        box-shadow:
+    0 8px 32px rgba(0,0,0,0.5),
+    inset 0 1px 1px rgba(255,255,255,0.5);
+}
+.started{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 40vh;
+}
+.started img{
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+        box-shadow:
+    0 8px 32px rgba(0,0,0,0.5),
+    inset 0 1px 1px rgba(255,255,255,0.5);
+}
+.started_h2{
+    font-size: 60px;
+    color: rgb(216, 3, 3);
+}
+.started_h1{
+    font-size: 40px;
+}
+.started_p{
+    width: 400px;
+    font-size: 16px;
+      font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
