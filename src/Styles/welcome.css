@@ -1,8 +1,17 @@
 .welcome{
     height:90vh;
     width:100vw;
-    background-image: url('https://i.pinimg.com/originals/3c/12/7a/3c127aeea4e76620701d2129b76dd2e7.gif');
-    background-size: cover;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        to bottom,
+        #EE9B52 0%,
+        #F0C38A 45%,
+        #F5E6D3 100%
+    );
+
+    background-attachment: fixed;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +28,7 @@
 }
 
 .welcome_NGO{
-    font-size: 20px;
+    font-size: 14px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
@@ -69,4 +78,11 @@
         transform: translateY(0);
         filter: blur(0);
     }
+}
+
+.welcome_right img{
+    border-radius: 20px;
+        box-shadow:
+    0 8px 32px rgba(0,0,0,0.5),
+    inset 0 1px 1px rgba(255,255,255,0.5);
 }

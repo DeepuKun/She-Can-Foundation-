@@ -1,0 +1,60 @@
+.joinus{
+height:90vh;
+    width:100vw;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        to bottom,
+        #EE9B52 0%,
+        #F0C38A 45%,
+        #F5E6D3 100%
+    );
+
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.joinus_img{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+        box-shadow:
+    0 8px 32px rgba(0,0,0,0.5),
+    inset 0 1px 1px rgba(255,255,255,0.5);
+}
+
+.joinus_left{
+    width: 650px;
+}
+
+.joinus_left h1{
+    font-size: 70px;
+    
+}
+.joinus_span{
+    color: rgb(216, 3, 3);
+}
+
+.joinus_paragraph{
+    font-size: 17px;
+      font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.joinus_button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(216, 3, 3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s ease, padding 0.3s ease;
+}
+.joinus_button:hover{
+    background-color: rgb(134, 0, 0);
+    padding: 10px 30px;
+}

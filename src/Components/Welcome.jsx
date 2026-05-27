@@ -17,7 +17,7 @@ const Welcome = () => {
         <p className='motto3 autoShow'>We don't ask for much, just help us with what you can- Be it Money, Skill or Your Time</p>
         <br></br>
         <br></br>
-        <button className='welcome_button'>Donate Now</button>
+        <button className='welcome_button '>Donate Now</button>
       </div>
 
       <div className='welcome_right autoShow'>
