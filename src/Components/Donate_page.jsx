@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import '../Styles/donate_page.css'
+import Footer from './Footer'
 
 
 const Donate_page = () => {
@@ -215,6 +216,7 @@ const Donate_page = () => {
 
 </div>
 </div>
+<Footer/>
     </div>
   )
 }

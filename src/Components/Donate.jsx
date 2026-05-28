@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/donate.css'
 import Header from './Header'
+import Footer from './Footer'
 const Donate = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const Donate = () => {
 
             </div>
     </div>
+    <Footer/>
      </div>
   )
 }

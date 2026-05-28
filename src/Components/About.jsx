@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import '../Styles/about.css'
 import ContactUs from './ContactUs'
+import Footer from './Footer'
 const About = () => {
   return (
     <div className='about_bg'>
@@ -36,7 +37,7 @@ const About = () => {
         <p className='started_p'>She Can Foundation was founded by a group of individuals who shared a common vision of creating a world where every woman has the opportunity to thrive and succeed. The idea for the organization was born out of a desire to make a real difference in the lives of women in communities across the globe. We recognized that there are countless barriers that prevent women from reaching their full potential, and we wanted to create an organization that could help break down those barriers and provide women with the resources and support they need to succeed. With a shared passion and a determination to create positive change, we set out to make our vision a reality, and She Can Foundation was born.</p>
         </div>
     </div>
-    <ContactUs/>
+    <Footer/>
     </div>
   )
 }
