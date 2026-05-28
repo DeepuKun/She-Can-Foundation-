@@ -1,4 +1,4 @@
-# She Can Foundation Website
+# She Can Foundation Front End 
 
 A modern and responsive NGO website built for **She Can Foundation** as part of the Frontend Development Internship selection task.
 
@@ -38,8 +38,24 @@ https://she-can-foundation-sage.vercel.app/
 https://github.com/DeepuKun/She-Can-Foundation-
 
 ## 📸 Screenshots
+<h1>Home Page</h1>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e65a2ab9-bd74-44a4-a77f-a8667afd8f2e" />
 
-(Add screenshots here later)
+<h2>Welcome to She Can Foundation</h2>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/fc385a5c-9a1b-40ab-b2b4-f05a0f4df9b9" />
+
+<h2>About Us</h2>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/52e5f47e-d6a3-46ec-87ef-5d577dc03355" />
+
+<hr></hr>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/309ef559-0423-4f50-9f7e-43b262965028" />
+
+
+<h2>Donate Page</h2>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/0a9f034c-31b3-4834-9239-48d3ced92dee" />
+<hr></hr>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/4620052d-203d-4464-8d7a-4e603a13babb" />
+
 
 ## 📚 What I Learned
 
