@@ -1,21 +1,71 @@
-<<<<<<< HEAD
-# React + Vite
+# She Can Foundation Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive NGO website built for **She Can Foundation** as part of the Frontend Development Internship selection task.
 
-Currently, two official plugins are available:
+## 🌸 About The Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was created to design and develop a frontend website for **She Can Foundation**, a youth-driven NGO working towards education, awareness, and positive social impact.
 
-## React Compiler
+Although the original task required a simple single webpage using basic HTML and CSS, this project was expanded into a fully responsive multi-page React website with modern UI design and deployment.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+* Responsive Multi-Page Website
+* Modern UI Design
+* Glassmorphism Navbar
+* Smooth Layout & Styling
+* Donation Section
+* About Section
+* Certificate Section
+* React Routing
+* Interactive Components
+* Live Deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# She-Can-Foundation-
-Front End for the Women Empowerment NGO called SHE CAN FOUNDATION.
->>>>>>> 7ed04213378f47ccb914ecf0fa6ef514163ffc3e
+## 🛠️ Tech Stack
+
+* React.js
+* CSS3
+* React Router DOM
+* Git & GitHub
+* Vercel
+
+## 🌐 Live Website
+
+https://she-can-foundation-sage.vercel.app/
+
+## 📂 GitHub Repository
+
+https://github.com/DeepuKun/She-Can-Foundation-
+
+## 📸 Screenshots
+
+(Add screenshots here later)
+
+## 📚 What I Learned
+
+During this project, I learned and improved my skills in:
+
+* React Components
+* React Router
+* Responsive Design
+* UI/UX Styling
+* Git & GitHub Workflow
+* Deployment using Vercel
+* Debugging frontend issues
+
+## 💡 Future Improvements
+
+* Better Mobile Responsiveness
+* Dark Mode
+* Animations
+* Backend Integration
+* Donation Functionality
+* Contact Form Functionality
+
+## 🙌 Acknowledgement
+
+Special thanks to **She Can Foundation** for providing this opportunity and beginner-friendly internship task that encouraged creativity and learning.
+
+---
+
+Built with ❤️ using React.js
